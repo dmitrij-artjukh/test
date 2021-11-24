@@ -1,0 +1,160 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+} 
+
+.container{
+    max-width: 1105px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+}
+.nav-li{
+    display: inline-block;
+}
+.nav-li:not(:last-of-type){
+    margin-right: 90px;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #FA4A0C;
+}
+.app{
+    background-image: url('../img/background1.png');
+    color: white;
+    text-align: center;
+    padding: 80px 0px 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app-pertitle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.app-title{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 650px;
+    margin: 10px auto; 
+}
+.app-text{
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 54px;
+}
+.button{
+    width: 230px;
+    height: 68px;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.button:first-of-type{
+    background:  #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 67px;
+
+}
+.button:last-of-type{
+    background: none;
+    border: 1px solid white;
+}
+
+.app2{
+    background-image: url('../img/background2.png');
+    color: white;
+    text-align: center;
+    padding: 146px 0px 149px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+.app2-title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin: 10px auto; 
+}
+
+.app2-postitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 60px;
+}
+
+.button1{
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+}
+.button1:first-of-type{
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    margin-right: 16px;
+    width: 142px;
+    height: 64px;
+}
+.button1:last-of-type{
+    background: none;
+    border: 1px solid white;
+    width: 173px;
+    height: 60px;
+}
+.title{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    text-align:  center;
+    margin: 56px 0 70px;
+}
+.mobile
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+}
+.mibile-pretiltle{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+color:#FA4A0C;
+}
+.mobile-title{
+    font-weight: bold;
+font-size: 40px;
+line-height: 57px;
+max-width: 560px;
+}
+.mobile-text{
+  color: #737373;
+font-size: 24px;
+line-height: 38px;
+max-width: 400px;
+}
+.container-footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+    max-width: 1210px;
+}
